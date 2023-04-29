@@ -8,7 +8,7 @@
 # n + nn + nnn = 369
 a = float(input("Введите целое положительное число: "))
 if a>0 and int(a)/float(a)==1.0:
-    b=a+2*(a*10+a)+a*100
-    print(b)
+    b=a*3+2*(a*10)+a*100
+    print(int(b))
 else:
     print("Число введено некорректно")
